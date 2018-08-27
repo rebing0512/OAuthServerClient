@@ -1,0 +1,26 @@
+{
+    "name": "rebing0512/OAuthServerClient",
+    "description": "rebing0512 OAuthServerClient API 鉴权 Packages 客户端",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rebing0512",
+            "email": "i@rebing0512.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rebing0512\\OAuthServerClient\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rebing0512\\OAuthServerClient\\ServiceProvider"
+            ]
+        }
+    }
+}
